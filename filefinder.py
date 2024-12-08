@@ -7,4 +7,4 @@ def printAllFlashdecks(directory = 'flashdecks/'):
             os.mkdir('flashdecks')
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
-        print(filename)
+        print(filename[0:-4])
