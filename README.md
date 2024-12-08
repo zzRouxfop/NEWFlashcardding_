@@ -1,2 +1,2 @@
-# NEWFlashcardding_
-legacy flashcardding_ --> https://github.com/zzrouxfop/flashcardding_
+# flashcardding_
+quizlet-like flashcard thing
