@@ -23,7 +23,9 @@ def makeFlashdeck():
             if question == 'x' or question == 'X':
                 if len(flashdeck) < 5:
                     print('you must have at least 5 flashcards in your flashdeck!')
-                break
+                    continue
+                else:
+                    break
 
             answer = str(input('answer: '))
             answer.strip()
