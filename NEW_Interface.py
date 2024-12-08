@@ -34,6 +34,6 @@ while True:
     elif inputting == 'p':
         GetFlashcardFromFlashdeck()
     elif inputting == 'x':
-        exit()
+        quit()
     else:
         print('invalid input!')
