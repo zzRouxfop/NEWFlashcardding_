@@ -17,5 +17,6 @@ def DelFlashcard():
         elif warnUser == 'y':
             print(f"{inputting} deleted! ")
             os.remove(f)
+            return None
         else:
             print('invalid input!')

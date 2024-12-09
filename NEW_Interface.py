@@ -29,6 +29,6 @@ def MainMenu():
         elif inputting == 'p':
             GetFlashcardFromFlashdeck()
         elif inputting == 'x':
-            quit()
+            exit()
         else:
             print('invalid input!')
