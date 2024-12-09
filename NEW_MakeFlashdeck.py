@@ -6,9 +6,9 @@ import string
 def makeFlashdeck():
     
     while True:
-        title = str(input("Flashdeck Name: "))
+        title = str(input("Flashdeck Name [press ENTER to exit]: "))
         if title == '':
-            print('flashdeck title must NOT be blank!')
+            return None
         else:
             break
         

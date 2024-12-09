@@ -6,8 +6,8 @@ import string
 def EditFlashdeck():
     printAllFlashdecks()
     title = str(input("which flashcard set would you like to edit? [press ENTER to exit]: "))
-    if title == ''
-        pass
+    if title == '':
+        return None
     else:
         fTitle = 'flashdecks/' + title + ".txt"
         try:

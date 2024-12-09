@@ -5,7 +5,7 @@ def GetFlashcardFromFlashdeck():
     printAllFlashdecks()
     Title = str(input("which flashdeck would you like to view the flashcards from? [press ENTER to cancel]: "))
     if Title == '':
-        pass
+        return None
     else:
         fTitle = 'flashdecks/' + Title + '.txt'
         try:

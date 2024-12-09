@@ -6,7 +6,7 @@ def practiceFlashdeck():
     printAllFlashdecks()
     title = str(input("which flashcard set would you like to open? [press ENTER to cancel]: "))
     if title == '':
-        pass
+        return None
     else:
         fTitle = 'flashdecks/' + title + ".txt"
         try:

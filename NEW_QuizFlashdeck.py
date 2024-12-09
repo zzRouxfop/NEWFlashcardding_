@@ -6,7 +6,7 @@ def quizFlashdeck():
     printAllFlashdecks()
     title = str(input("which flashcard set would you like to open? [press ENTER to cancel]: "))
     if title == '':
-        pass
+        return None
     else:
         QuantityOfChoicesPerQuestion = int(input("how many choices per multiple choice? [3/4/5]: "))
         fTitle = 'flashdecks/' + title + ".txt"
